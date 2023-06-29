@@ -8,13 +8,15 @@
 * **Telegram:** @max_bortnik
 
 ## Personal qualities:
-    Active, optimistic, personal leadership, analytical thinking, responsibility, organisation skills, communicative skills, easy going person, persuasiveness, teachable, able to work under pressure. Don’t have any bad habits. 
+    Active, optimistic, personal leadership, analytical thinking, responsibility, 
+    organisation skills, communicative skills, easy going person, persuasiveness, 
+    teachable, able to work under pressure. Don’t have any bad habits. 
 
 ## Skills:
 **Languages** 		    
-                Ukrainian (Mother tongue)
-				Russian (fluent) 
-				English (Intermediate)
+                *Ukrainian* (Mother tongue)
+				*Russian* (fluent) 
+				*English* (Intermediate)
 
 ## Code example:
 ```
