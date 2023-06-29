@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Bortnyk-Max.github.io/rsschool-cv/cv

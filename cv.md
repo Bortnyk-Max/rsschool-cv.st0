@@ -17,7 +17,8 @@
 				English (Intermediate)
 
 ## Code example:
-'''
+```
+
 // Задание 1:
 for(let i=10; i<=50; i=i+2) {
     console.log(i)
@@ -34,6 +35,6 @@ let i = 21
 while(i<=67) {
     console.log(i);
     i=i+2;
-
-'''
+    
+```
 
