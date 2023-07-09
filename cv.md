@@ -1,4 +1,4 @@
-# Maxym Bortnyk
+# Maksym Bortnyk
 
 ## Contacts:
 * **Location:** Odessa, Ukraine
