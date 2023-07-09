@@ -1,1 +1,1 @@
-# rsschool-cv
+[https://bortnyk-max.github.io/rsschool-cv/](https://bortnyk-max.github.io/rsschool-cv/)
