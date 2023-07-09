@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Maxym Bortnyk</h1>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+            <section class="section" id="profile">
+                <img class="photo" src="image.jpg" alt="my photo">
+                <h1 class="section-title-name">Maksym Bortnyk</h1>
+            </section>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li><a href="http://surl.li/ixonc" target="_blank">Location: Odessa, Ukraine</a></li>
+                        <li><a href="tel:+380953094825" target="_blank">Phone: +38 (095) 30-94-825</a></li>
+                        <li><a href="mailto:bortmehanik2@gmail.com" target="_blank">Email: bortmehanik2@gmail.com</a></li>
+                        <li><a href="https://github.com/Bortnyk-Max" target="_blank">GitHub: Bortnyk-Max</a></li>
+                        <li><a href="https://t.me/max_bortnik" target="_blank">Telegram: max_bortnyk</a></li>
+                    </ul>
+            </section>
+            <section class="section" id="aboutMe">
+                <h2 class="section-title">About Me</h2>
+                <p>Active, optimistic, personal leadership, analytical thinking,<br> responsibility, 
+                    organisation skills, communicative skills,<br> easy going person, persuasiveness, 
+                    teachable, able to work under pressure.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Git&Github</li>
+                    </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <p class="example-code"> 
+                    <code>
+                      let i = 21 <br>
+                        while(i-67)[ <br>
+                        console.log(i); <br>
+                        i=i+2;
+                    </code>
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                    <p>2002-2013 Educational Complex of Letychiv #1 “Regular school – vocational school”.<br>
+                    2013-2017 Odessa National Maritime University. Basic higher education, Bachelor Degree 
+                    </p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                    <ol>
+                        <li>WayUp</li>
+                        <li>CyberBionic Systematics</li>
+                        <li>The Rolling Scopes</li>
+                    </ol>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                    <a href="https://bortnyk-max.github.io/rsschool-cv/">My CV</a>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                    <ul class="languages-list">
+                        <li>Ukrainian - Mother tongue</li>
+                        <li>English - Intermediate</li>
+                    </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="сreat-year">2023</p>
+            <a href="https://github.com/Bortnyk-Max" target="_blank"><img class="img-git" src="https://www.malwarebytes.com/blog/news/2023/03/easset_upload_file13810_262604_e.png" alt="git"></a>
+            <a href="https://rs.school/js/" target="_blank"><img class="img-logo" src="data:image/png;base64,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" alt="rsschool-logo"></a>
+        </div>
+    </footer>
 </body>
 </html>
